@@ -1,0 +1,118 @@
+body {
+  font-family: "inter";
+  background-color: #a1c3ff;
+  color: #fff;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*generic styles*/
+@font-face {
+  font-family: "inter";
+  src: url("../assets/fonts/Inter-Bold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "inter";
+  src: url("../assets/fonts/Inter-ExtraBold.ttf");
+  font-weight: bolder;
+}
+@font-face {
+  font-family: "inter";
+  src: url("../assets/fonts/Inter-Regular.ttf");
+  font-weight: normal;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3474e6;
+  padding: 8px 270px;
+}
+
+h4 {
+  font-weight: bolder;
+  margin-left: 10px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 13px;
+}
+
+ul .nav-item {
+  list-style: none;
+  margin-right: 18px;
+}
+ul .nav-item:last-child {
+  margin-right: 0;
+}
+
+.main-section {
+  display: flex;
+  background: #2151cc;
+  padding: 10px 260px 50px 260px;
+}
+
+.ms-text {
+  flex: 85%;
+}
+
+.ms-text h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.ms-text p {
+  font-size: 13px;
+}
+
+.ms-logo {
+  padding: 20px 0px 20px 20px;
+  align-items: flex-start;
+}
+
+.card-section {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px 260px 0px 260px;
+}
+
+.card {
+  background-color: #2151cc;
+  border-radius: 10px;
+  margin: 0px 10px;
+  padding: 20px 15px;
+  width: 200px;
+}
+
+.card p {
+  font-size: 13px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 10px;
+}
+
+.white-img {
+  color: #fff;
+}
+.card-img {
+  width: 10px;
+  height: 10px;
+}
